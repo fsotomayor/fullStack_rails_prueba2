@@ -1,0 +1,10 @@
+<h1>Inventario</h1>
+
+<ul>
+	<% @usuarios.each do |u| %>
+	<li>
+		<%= u.name %> <%= u.user_id%> <%= u.category_id %>
+	</li>
+	<% end %>
+</ul>
+
